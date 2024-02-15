@@ -1,0 +1,13 @@
+package arraylist;
+
+import java.util.ArrayList;
+
+public class InsertFirstElement {
+	public static void main(String[] args) {
+		ArrayList ref=new ArrayList();
+		
+		ref.add(0, "Kalyani");
+		System.out.println(ref);
+	}
+
+}
