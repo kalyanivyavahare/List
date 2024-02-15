@@ -1,0 +1,16 @@
+package arraylist;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Addcolorlist {
+	public static void main(String[] args) {
+		ArrayList<String> ref=new ArrayList();
+		ref.add("Red");
+		ref.add("Blue");
+		ref.add("Green");
+		System.out.println(ref);
+		
+	}
+
+}
