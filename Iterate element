@@ -1,0 +1,16 @@
+package arraylist;
+
+import java.util.ArrayList;
+
+public class Iteratelement {
+	public static void main(String[] args) {
+		ArrayList ref=new ArrayList();
+		for(int i=1;i<=7;i++) {
+			System.out.println(ref.add(i));
+		}
+		
+	    
+		System.out.println(ref);
+	}
+
+}
